@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<title>Mega menu navigation bar using twitter bootstrap 3.0</title> 
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/megamenu.css" rel="stylesheet">
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	<script src="js/html5shiv.js"></script>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+
+	<!-- Static navbar -->
+	<div class="navbar navbar-default navbar-static-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">My brand</a>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav pull-right mega-menu-wrapper">
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+
+        <li class="dropdown">
+            <a id="dLabel" role="button" data-toggle="dropdown" data-target="#" href="/page.html">
+                Dropdown <span class="caret"></span>
+            </a>
+    		<ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+              <li><a href="#">Some action</a></li>
+              <li><a href="#">Some other action</a></li>
+              <li class="divider"></li>
+              <li class="dropdown-submenu">
+                <a tabindex="-1" href="#">Hover me for more options</a>
+                <ul class="dropdown-menu">
+                  <li><a tabindex="-1" href="#">Second level</a></li>
+                  <li class="dropdown-submenu">
+                    <a href="#">Even More..</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">3rd level</a></li>
+                    	<li><a href="#">3rd level</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Second level</a></li>
+                  <li><a href="#">Second level</a></li>
+                </ul>
+              </li>
+            </ul>
+        </li>
+
+
+					<li class="dropdown menu-large">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							Product Listing <b class="caret"></b>
+						</a>
+						<ul class="dropdown-menu megamenu row">
+							<li>
+								<div class="col-sm-6 col-md-3">
+									<a href="#" class="thumbnail">
+										<img src="img/technology.jpg" />
+									</a>
+								</div>
+								<div class="col-sm-6 col-md-3">
+									<a href="#" class="thumbnail">
+										<img src="img/technology1.jpg" />
+									</a>
+								</div>
+								<div class="col-sm-6 col-md-3">
+									<a href="#" class="thumbnail">
+										<img src="img/technology2.jpg" />
+									</a>
+								</div>
+								<div class="col-sm-6 col-md-3">
+									<a href="#" class="thumbnail">
+										<img src="img/technology3.jpg" />
+									</a>
+								</div>
+							</li>
+						</ul>
+					</li>
+
+					<li class="dropdown menu-large">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							Categories <b class="caret"></b>
+						</a>
+						<ul class="dropdown-menu megamenu row">
+							<li class="col-sm-3">
+								<ul>
+									<li class="dropdown-header">Glyphicons</li>
+									<li>
+										<a href="#">Available glyphs</a>
+									</li>
+									<li class="disabled">
+										<a href="#">How to use</a>
+									</li>
+									<li>
+										<a href="#">Examples</a>
+									</li>
+									<li class="divider"></li>
+									<li class="dropdown-header">Dropdowns</li>
+									<li>
+										<a href="#">Example</a>
+									</li>
+									<li>
+										<a href="#">Aligninment options</a>
+									</li>
+									<li>
+										<a href="#">Headers</a>
+									</li>
+									<li>
+										<a href="#">Disabled menu items</a>
+									</li>
+								</ul>
+							</li>
+							<li class="col-sm-3">
+								<ul>
+									<li class="dropdown-header">Button groups</li>
+									<li>
+										<a href="#">Basic example</a>
+									</li>
+									<li>
+										<a href="#">Button toolbar</a>
+									</li>
+									<li>
+										<a href="#">Sizing</a>
+									</li>
+									<li>
+										<a href="#">Nesting</a>
+									</li>
+									<li>
+										<a href="#">Vertical variation</a>
+									</li>
+									<li class="divider"></li>
+									<li class="dropdown-header">Button dropdowns</li>
+									<li>
+										<a href="#">Single button dropdowns</a>
+									</li>
+								</ul>
+							</li>
+							<li class="col-sm-3">
+								<ul>
+									<li class="dropdown-header">Input groups</li>
+									<li>
+										<a href="#">Basic example</a>
+									</li>
+									<li>
+										<a href="#">Sizing</a>
+									</li>
+									<li>
+										<a href="#">Checkboxes and radio addons</a>
+									</li>
+									<li class="divider"></li>
+									<li class="dropdown-header">Navs</li>
+									<li>
+										<a href="#">Tabs</a>
+									</li>
+									<li>
+										<a href="#">Pills</a>
+									</li>
+									<li>
+										<a href="#">Justified</a>
+									</li>
+								</ul>
+							</li>
+							<li class="col-sm-3">
+								<ul>
+									<li class="dropdown-header">Navbar</li>
+									<li>
+										<a href="#">Default navbar</a>
+									</li>
+									<li>
+										<a href="#">Buttons</a>
+									</li>
+									<li>
+										<a href="#">Text</a>
+									</li>
+									<li>
+										<a href="#">Non-nav links</a>
+									</li>
+									<li>
+										<a href="#">Component alignment</a>
+									</li>
+									<li>
+										<a href="#">Fixed to top</a>
+									</li>
+									<li>
+										<a href="#">Fixed to bottom</a>
+									</li>
+									<li>
+										<a href="#">Static top</a>
+									</li>
+									<li>
+										<a href="#">Inverted navbar</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="jumbotron">
+			<h1>Mega menu navigation bar using twitter bootstrap 3.0</h1>
+		</div>
+
+	</div>
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
